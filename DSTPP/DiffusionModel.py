@@ -4,17 +4,17 @@ from functools import partial
 from collections import namedtuple
 
 import torch
-from torch import nn, einsum
+from torch import nn
 import torch.nn.functional as F
 
-from einops import rearrange, reduce
-from einops.layers.torch import Rearrange
+from einops import reduce
+# from einops.layers.torch import Rearrange
 
 from tqdm.auto import tqdm
 
 import numpy as np
 import time
-import tensorflow.compat.v1 as tf
+# import tensorflow.compat.v1 as tf
 
 # constants
 
